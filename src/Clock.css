@@ -1,0 +1,73 @@
+.outerframe{
+    height:400px;
+    width:400px;
+    background-image: url(./clockframe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform:rotate(-90deg);
+}
+#amorpm{
+    position:absolute;
+    height:40px;
+    width:60px;
+    top:182px;
+    left:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transform:rotate(90deg);
+    background-color:rgba(255, 200, 0, 0.074);
+    color:rgba(19, 78, 68, 0.548);
+    border-radius:5px;
+    box-shadow: 1px 0px 0px 1px rgb(243, 220, 129);
+}
+
+.centerdot,.secframe,.minframe,.hourframe{
+    height:400px;
+    width:400px;
+    position:absolute;
+    border:2px;
+    border-radius:50%;
+}
+.centerdot{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.centerdot div{
+    position:absolute;
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    background-color: red;
+}
+.secneedle{
+    position:absolute;
+    height:5px;
+    width:220px;
+    background-color: black;
+    left:150px;
+    top:198px;
+}
+.minneedle{
+    position:absolute;
+    height:10px;
+    width:180px;
+    background-color: green;
+    left:165px;
+    top:195px;
+}
+.hourneedle{
+    position:absolute;
+    height:14px;
+    width:150px;
+    background-color:blue;
+    left:170px;
+    top:192.5px;
+}
+h3{
+    transform:rotate(90deg);
+    position:absolute;
+    top:170px;
+    left:200px;
+}
